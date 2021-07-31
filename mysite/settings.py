@@ -82,9 +82,9 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'blog',
-        'USER' : 'asadbek',
-        'PASSWORD' : '#Sindarov3441409',
+        'NAME': 'database_name',
+        'USER' : 'username',
+        'PASSWORD' : 'password',
     }
 }
 
@@ -135,9 +135,9 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 EMAIL_HOST = 'smtp.gmail.com'
 
-EMAIL_HOST_USER = "asindarov07@gmail.com"
+EMAIL_HOST_USER = "account@gmail.com"
 
-EMAIL_HOST_PASSWORD = 'ejlgnuwfqnsjinod'
+EMAIL_HOST_PASSWORD = 'password'
 
 EMAIL_PORT = 587
 
